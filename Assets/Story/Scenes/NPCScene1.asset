@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b6c456ce43bc774d9715566fa6562c7, type: 3}
+  m_Name: NPCScene1
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: Hello Player!
+    speaker: {fileID: 11400000, guid: 767f4a335c251d045903e59d03da6d13, type: 2}
+  - text: Hello!
+    speaker: {fileID: 11400000, guid: 37f4651f28d626e49a720f03e93963ee, type: 2}
+  - text: I remember my time as a scientist. It was tiring, but so worth it!
+    speaker: {fileID: 11400000, guid: 767f4a335c251d045903e59d03da6d13, type: 2}
+  background: {fileID: 21300000, guid: 2fc7fd2761409264fa421bc83aac1ba4, type: 3}
+  nextScene: {fileID: 11400000, guid: a95c49b02a4fa0e4fb549c479774cabf, type: 2}
