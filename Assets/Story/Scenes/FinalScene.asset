@@ -30,7 +30,7 @@ MonoBehaviour:
     speaker: {fileID: 11400000, guid: 767f4a335c251d045903e59d03da6d13, type: 2}
   - text: So what if I do resent you?  I don't get why you're bringing this up now
       if you've known it for years. And I also don't get why you wouldn't come home
-      on time for one, or be there for my concerts and my competitions, if you already
+      on time for once, or be there for my concerts and my competitions, if you already
       knew how much that hurt me.
     speaker: {fileID: 11400000, guid: 37f4651f28d626e49a720f03e93963ee, type: 2}
   - text: I was afraid. I didn't know what I was doing. I was so tired all the time.
@@ -85,12 +85,12 @@ MonoBehaviour:
       hear, but...
     speaker: {fileID: 11400000, guid: 37f4651f28d626e49a720f03e93963ee, type: 2}
   - text: "\u2026 It\u2019s the truth. We could spend years unpacking the ways we\u2019ve
-      let each other down. But what we have now the phone calls, weekend dinners
-      together, silly fights over dumb TV shows I want to hold on to that.  "
+      let each other down. But what we have now -- the phone calls, weekend dinners
+      together, silly fights over dumb TV shows -- I want to hold on to that.  "
     speaker: {fileID: 11400000, guid: 37f4651f28d626e49a720f03e93963ee, type: 2}
   - text: "\u2026 Me too. Thank you for remembering Mr. Snuffles."
     speaker: {fileID: 11400000, guid: 767f4a335c251d045903e59d03da6d13, type: 2}
-  - text: Remember him for me.
+  - text: Take care of him for me.
     speaker: {fileID: 11400000, guid: 37f4651f28d626e49a720f03e93963ee, type: 2}
   - text: I will.
     speaker: {fileID: 11400000, guid: 767f4a335c251d045903e59d03da6d13, type: 2}
