@@ -9,12 +9,16 @@ public class StoryScene : ScriptableObject
     public List<Sentence> sentences;
     public Sprite background;
     public StoryScene nextScene;
+    public string Name;
+    public StoryScene possibleOne;
+    public StoryScene possibleTwo;
 
     [System.Serializable]
     public struct Sentence
     {
         public string text;
         public SpeakerManager speaker;
+
     }
 
 }

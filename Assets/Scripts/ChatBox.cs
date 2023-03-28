@@ -13,6 +13,7 @@ public class ChatBox : MonoBehaviour
     public StoryScene currentScene;
     public Image imageHolder;
     
+    
     private State state = State.COMPLETED;
 
     private enum State

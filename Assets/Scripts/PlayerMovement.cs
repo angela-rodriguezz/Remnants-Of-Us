@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-
+    
     private Rigidbody2D rb;
     private BoxCollider2D coll;
     private SpriteRenderer sprite;
@@ -12,15 +12,20 @@ public class PlayerMovement : MonoBehaviour
     private float dirX = 0f;
 
     [SerializeField] private LayerMask jumpableGround;
+    [SerializeField] private AudioSource jumpSoundEffect;
+    
     
     // Start is called before the first frame update
     void Start()
     {
+        
         rb = GetComponent<Rigidbody2D>();
         coll = GetComponent<BoxCollider2D>();
         anim = GetComponent<Animator>();
         sprite = GetComponent<SpriteRenderer>();
     }
+
+    
 
     // Update is called once per frame
     void Update()
@@ -32,6 +37,7 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetButtonDown("Jump") && IsGrounded())
         {
             rb.velocity = new Vector2(rb.velocity.x, 14f);
+            jumpSoundEffect.Play();
         }
 
         UpdateAnimationUpdate();

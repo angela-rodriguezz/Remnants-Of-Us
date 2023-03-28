@@ -7,7 +7,8 @@ public class ItemCollector : MonoBehaviour
 {
     public GameObject popup;
     private Animator anim;
-    private int items = 0;
+    public static bool items = false;
+    [SerializeField] private AudioSource collectSoundEffect;
 
     private void Start()
     {
@@ -17,8 +18,8 @@ public class ItemCollector : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Item"))
         {
-            
-            items++;
+            collectSoundEffect.Play();
+            items = true;
             popup.SetActive(true);
             //Text();
             

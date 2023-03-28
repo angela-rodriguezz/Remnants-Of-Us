@@ -21,3 +21,6 @@ MonoBehaviour:
     speaker: {fileID: 11400000, guid: 37f4651f28d626e49a720f03e93963ee, type: 2}
   background: {fileID: 21300000, guid: 52f122bb3b2eea540856303bd01f71d9, type: 3}
   nextScene: {fileID: 11400000, guid: de7814578f11ef346aa39ecf974a63c7, type: 2}
+  Name: NPCSceneBad
+  possibleOne: {fileID: 0}
+  possibleTwo: {fileID: 0}

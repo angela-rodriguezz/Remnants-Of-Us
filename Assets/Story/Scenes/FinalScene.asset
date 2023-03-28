@@ -40,7 +40,7 @@ MonoBehaviour:
     speaker: {fileID: 11400000, guid: 37f4651f28d626e49a720f03e93963ee, type: 2}
   - text: ...
     speaker: {fileID: 11400000, guid: 767f4a335c251d045903e59d03da6d13, type: 2}
-  - text: I don't want to talk about this now. It didn't matter that much to me anywway.
+  - text: I don't want to talk about this now. It didn't matter that much to me anyway.
       I'm an adult now. I've moved on. We're good now.
     speaker: {fileID: 11400000, guid: 37f4651f28d626e49a720f03e93963ee, type: 2}
   - text: ...Yes. We are.
@@ -55,7 +55,7 @@ MonoBehaviour:
     speaker: {fileID: 11400000, guid: 767f4a335c251d045903e59d03da6d13, type: 2}
   - text: ...
     speaker: {fileID: 11400000, guid: 37f4651f28d626e49a720f03e93963ee, type: 2}
-  - text: I love you too. Now let's go
+  - text: I love you too. Now let's go.
     speaker: {fileID: 11400000, guid: 37f4651f28d626e49a720f03e93963ee, type: 2}
   - text: I failed you in so many ways when I was alive. At least I get to speak
       with you one last time.
@@ -80,9 +80,22 @@ MonoBehaviour:
   - text: I don't forgive you. You're right. You never were enough. And I know you
       tried to be more, but you weren't. I can't forgive you, but... I still love
       you. Because that's all I can do. Because it's easier to pretend, and it hurts
-      less that way. The same way is was easier for you to give me Mr. Snuffles than
+      less that way. The same way it was easier for you to give me Mr. Snuffles than
       to be there for me yourself. I know that's probably not what you wanted to
       hear, but...
     speaker: {fileID: 11400000, guid: 37f4651f28d626e49a720f03e93963ee, type: 2}
+  - text: "\u2026 It\u2019s the truth. We could spend years unpacking the ways we\u2019ve
+      let each other down. But what we have now the phone calls, weekend dinners
+      together, silly fights over dumb TV shows I want to hold on to that.  "
+    speaker: {fileID: 11400000, guid: 37f4651f28d626e49a720f03e93963ee, type: 2}
+  - text: "\u2026 Me too. Thank you for remembering Mr. Snuffles."
+    speaker: {fileID: 11400000, guid: 767f4a335c251d045903e59d03da6d13, type: 2}
+  - text: Remember him for me.
+    speaker: {fileID: 11400000, guid: 37f4651f28d626e49a720f03e93963ee, type: 2}
+  - text: I will.
+    speaker: {fileID: 11400000, guid: 767f4a335c251d045903e59d03da6d13, type: 2}
   background: {fileID: 21300000, guid: 52f122bb3b2eea540856303bd01f71d9, type: 3}
   nextScene: {fileID: 0}
+  Name: FinalScene
+  possibleOne: {fileID: 0}
+  possibleTwo: {fileID: 0}
