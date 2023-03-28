@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: NPCScene1
   m_EditorClassIdentifier: 
   sentences:
-  - text: Hello Player!
+  - text: ...It's you, finally. I was beginning to think you'd never show up. That
+      you didn't want to see me.
     speaker: {fileID: 11400000, guid: 767f4a335c251d045903e59d03da6d13, type: 2}
-  - text: Hello!
+  - text: Why would you think that? You're my family. Of course I'd find you. Please,
+      let's go now.
     speaker: {fileID: 11400000, guid: 37f4651f28d626e49a720f03e93963ee, type: 2}
-  - text: I remember my time as a scientist. It was tiring, but so worth it!
-    speaker: {fileID: 11400000, guid: 767f4a335c251d045903e59d03da6d13, type: 2}
-  background: {fileID: 21300000, guid: 2fc7fd2761409264fa421bc83aac1ba4, type: 3}
+  background: {fileID: 21300000, guid: 52f122bb3b2eea540856303bd01f71d9, type: 3}
   nextScene: {fileID: 11400000, guid: a95c49b02a4fa0e4fb549c479774cabf, type: 2}

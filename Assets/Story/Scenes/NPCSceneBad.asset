@@ -12,6 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b6c456ce43bc774d9715566fa6562c7, type: 3}
   m_Name: NPCSceneBad
   m_EditorClassIdentifier: 
-  sentences: []
-  background: {fileID: 21300000, guid: 2fc7fd2761409264fa421bc83aac1ba4, type: 3}
-  nextScene: {fileID: 0}
+  sentences:
+  - text: On your way down, did you see a stuffed bunny? The one I gave you. You
+      took it everywhere, even to school.
+    speaker: {fileID: 11400000, guid: 767f4a335c251d045903e59d03da6d13, type: 2}
+  - text: What, Mr. Snuffles? I didn't see him. Why would he be here anyway? Come
+      with me, please, and let's get out of here.
+    speaker: {fileID: 11400000, guid: 37f4651f28d626e49a720f03e93963ee, type: 2}
+  background: {fileID: 21300000, guid: 52f122bb3b2eea540856303bd01f71d9, type: 3}
+  nextScene: {fileID: 11400000, guid: de7814578f11ef346aa39ecf974a63c7, type: 2}

@@ -13,10 +13,17 @@ MonoBehaviour:
   m_Name: NPCSceneGood
   m_EditorClassIdentifier: 
   sentences:
-  - text: Oh! You have found my favorite book.  I wouldn't have done anything without
-      it!
+  - text: And you have that bunny with you. I've been looking everywhere for it.
+      I still remember when I first gave it to you; you took it everywhere, even
+      to school. I had no idea you still kept it.
     speaker: {fileID: 11400000, guid: 767f4a335c251d045903e59d03da6d13, type: 2}
-  - text: Your welcome!
+  - text: What, Mr. Snuffles? I guess I did bring him everywhere. But I don't know
+      how he ended up here, wherever "here" is. Come with me, please, and let's get
+      out of here.
     speaker: {fileID: 11400000, guid: 37f4651f28d626e49a720f03e93963ee, type: 2}
-  background: {fileID: 21300000, guid: 2fc7fd2761409264fa421bc83aac1ba4, type: 3}
-  nextScene: {fileID: 0}
+  - text: Can I... hold him? Mr. Snuffles?
+    speaker: {fileID: 11400000, guid: 767f4a335c251d045903e59d03da6d13, type: 2}
+  - text: '[You hand the stuffed animal over.]'
+    speaker: {fileID: 11400000, guid: 37f4651f28d626e49a720f03e93963ee, type: 2}
+  background: {fileID: 21300000, guid: 52f122bb3b2eea540856303bd01f71d9, type: 3}
+  nextScene: {fileID: 11400000, guid: de7814578f11ef346aa39ecf974a63c7, type: 2}

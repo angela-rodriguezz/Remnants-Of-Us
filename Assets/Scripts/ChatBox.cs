@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 public class ChatBox : MonoBehaviour
 {
@@ -10,6 +11,8 @@ public class ChatBox : MonoBehaviour
 
     private int sentenceIndex = -1;
     public StoryScene currentScene;
+    public Image imageHolder;
+    
     private State state = State.COMPLETED;
 
     private enum State
@@ -30,6 +33,11 @@ public class ChatBox : MonoBehaviour
         StartCoroutine(TypeText(currentScene.sentences[++sentenceIndex].text));
         personNameText.text = currentScene.sentences[sentenceIndex].speaker.speakerName;
         personNameText.color = currentScene.sentences[sentenceIndex].speaker.textColor;
+        imageHolder.sprite = currentScene.sentences[sentenceIndex].speaker.characterSprite;
+       
+        imageHolder.preserveAspect = true;
+       
+        
     }
 
     public bool IsCompleted()

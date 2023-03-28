@@ -6,6 +6,7 @@ public class GameManager : MonoBehaviour
 {
     public StoryScene currentScene;
     public ChatBox chatBox;
+    
     // Start is called before the first frame update
     void Start()
     {

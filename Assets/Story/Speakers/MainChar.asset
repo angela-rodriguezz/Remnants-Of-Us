@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bde829419adc0164c8392bfb52d0ad74, type: 3}
   m_Name: MainChar
   m_EditorClassIdentifier: 
-  speakerName: Unknown
+  speakerName: Sonia
   textColor: {r: 0.5188679, g: 0.13510148, b: 0.13510148, a: 1}
+  characterSprite: {fileID: 21300000, guid: 18231d50ead839f479a2ebfe38460085, type: 3}
