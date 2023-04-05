@@ -15,6 +15,7 @@ public class GameManager : MonoBehaviour
     public ChatBox chatBox;
     private bool gotIt;
     
+    
 
     // Start is called before the first frame update
     void Start()
@@ -62,6 +63,11 @@ public class GameManager : MonoBehaviour
 
                     chatBox.PlayNextSentence();
                 }
+            }
+            else
+            {
+                ChatBox.finished = true;
+                chatBox.FinishSentence();
             }
         }
     }

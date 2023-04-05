@@ -12,8 +12,11 @@ public class ChatBox : MonoBehaviour
     private int sentenceIndex = -1;
     public StoryScene currentScene;
     public Image imageHolder;
-    
-    
+    public static bool finished;
+
+    private IEnumerator lineAppear;
+
+
     private State state = State.COMPLETED;
 
     private enum State
@@ -31,7 +34,8 @@ public class ChatBox : MonoBehaviour
     // Start is called before the first frame update
     public void PlayNextSentence()
     {
-        StartCoroutine(TypeText(currentScene.sentences[++sentenceIndex].text));
+        lineAppear = TypeText(currentScene.sentences[++sentenceIndex].text);
+        StartCoroutine(lineAppear);
         personNameText.text = currentScene.sentences[sentenceIndex].speaker.speakerName;
         personNameText.color = currentScene.sentences[sentenceIndex].speaker.textColor;
         imageHolder.sprite = currentScene.sentences[sentenceIndex].speaker.characterSprite;
@@ -51,6 +55,13 @@ public class ChatBox : MonoBehaviour
         return sentenceIndex + 1 == currentScene.sentences.Count;
     }
 
+    public void FinishSentence()
+    {
+        barText.text = currentScene.sentences[sentenceIndex].text;
+    }
+
+
+
     private IEnumerator TypeText(string text)
     {
         barText.text = "";
@@ -66,6 +77,16 @@ public class ChatBox : MonoBehaviour
                 state = State.COMPLETED;
                 break;
             }
+        }
+    }
+
+    void Update()
+    {
+        if (finished)
+        {
+            StopCoroutine(lineAppear);
+            state = State.COMPLETED;
+            finished = false;
         }
     }
 }
