@@ -8,8 +8,8 @@ A story of self-discovery as you traverse into the unknown. Embark on a journey 
 
 # Credits:
 
-Programming: Angela Rodriguez, Ryssa Malibiran
+- Programming: Angela Rodriguez, Ryssa Malibiran
 
-Art, Design & Narrative: Vivienne Lin, Angelina Wu
+- Art, Design & Narrative: Vivienne Lin, Angelina Wu
 
 Made for CMGG Game Jam '23
