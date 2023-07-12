@@ -2,7 +2,7 @@
 
 ![Alt Text](https://img.itch.zone/aW1nLzExNzA0MTE3LnBuZw==/original/bHUuLO.png)
 
-A story of self-discovery as you traverse into the unknown. Embark on a journey of self-discovery in this 2D platformer with visual novel elements. 
+A 2D vertical platformer where you navigate an through a obstacles to reach remnants of past memories. As you take each step, the player much remember to take the item that was held most dear to them before reaching the surface.
 
  [Visit the game here!](https://itch.io/jam/cmgg-game-jam-23/rate/1990788)
 
