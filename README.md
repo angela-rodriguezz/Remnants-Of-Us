@@ -12,6 +12,8 @@ A 2D vertical platformer where you navigate through obstacles to reach remnants 
 
  I was involved in the development of all in-game mechanics. For instance, I programmed for the animations, movement, dialogue, and platform interation between the main character.
 
+## Game Design Documentation
+
 # Credits:
 
 - Programming: Angela Rodriguez
