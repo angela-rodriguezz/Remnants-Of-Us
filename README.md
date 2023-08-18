@@ -14,6 +14,8 @@ A 2D vertical platformer where you navigate through obstacles to reach remnants 
 
 ## Game Design Documentation
 
+[Click here!](https://docs.google.com/document/d/1I9JIJ2HpDFH6dyR2thWQxhgpPNN95ThgtzlLuKo3ejk/edit#heading=h.ywudmm9pog3d)
+
 # Credits:
 
 - Programming: Angela Rodriguez
