@@ -18,7 +18,7 @@ A 2D vertical platformer where you navigate through obstacles to reach remnants 
 
 # Credits:
 
-- Programming: Angela Rodriguez
+- Lead Programmer: Angela Rodriguez
 
 - Art, Design & Narrative: Vivienne Lin, Angelina Wu
 
