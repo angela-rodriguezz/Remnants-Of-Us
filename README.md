@@ -10,7 +10,7 @@ A 2D vertical platformer where you navigate through obstacles to reach remnants 
 
  ![Gameplay](https://github.com/angela-rodriguezz/Remnants-Of-Us/blob/Angela/%E3%83%AC%E3%82%B3%E3%83%BC%E3%83%87%E3%82%A3%E3%83%B3%E3%82%B0%202023-04-06%20160228.gif?raw=true)
 
- I was involved in the development of all in-game mechanics. For instance, I programmed for the animations, movement, dialogue, and platform interation between the main character.
+ I was involved in the development of all in-game mechanics. For instance, I programmed for the animations, movement, dialogue, and platform interation with the main character.
 
 ## Game Design Documentation
 
